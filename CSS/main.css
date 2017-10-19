@@ -1,0 +1,42 @@
+/* Cambiamos el ancho y alto a pedido del ejercicio de nuestro elementos.También alteramos sus colores de fondo y en algunos casos los margenes para que se parezca más al ejercicio de cajas*/
+h1{
+  width:319px;
+  height:319px;
+  background-color: red;
+  margin-bottom: -5px;
+  margin-top: -2px;
+}
+h2{
+  width:319px;
+  height:319px;
+  background-color: blue;
+  position: relative;
+  bottom: 185px;
+}
+div {
+  width:160px;
+  height:160px;
+  position: relative;
+  background-color: purple;
+  left: 75px;
+  bottom: 255px;
+}
+/*Los elementos que han de estar superpuestos les añadimos la propiedad relative para poder moverlos a nuestro antojo, a excepción de h3 y p que se encuentran anidados dentro de otros y no hacía falta editarlos al posicionarse por defecto donde nuestro ejercicio nos pide*/
+h3{
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+}
+p{
+  width: 80px;
+  height: 80px;
+  background-color: black;
+}
+h4{
+  width:160px;
+  height:160px;
+  position: relative;
+  background-color: green;
+  bottom: 445px;
+  left: 80px;
+}
